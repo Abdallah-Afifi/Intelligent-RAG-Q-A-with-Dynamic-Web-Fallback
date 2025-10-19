@@ -1,0 +1,88 @@
+{
+  "test_cases": [
+    {
+      "id": "kb_001", 
+      "question": "What is artificial intelligence?",
+      "expected_source": "knowledge_base",
+      "expected_concepts": ["artificial intelligence", "simulation", "human intelligence"],
+      "category": "document_content"
+    },
+    {
+      "id": "kb_002",
+      "question": "What is machine learning and how does it work?",
+      "expected_source": "knowledge_base",
+      "expected_concepts": ["machine learning", "algorithms", "patterns"],
+      "category": "document_content"
+    },
+    {
+      "id": "kb_003",
+      "question": "What are neural networks?",
+      "expected_source": "knowledge_base",
+      "expected_concepts": ["neural networks", "deep learning", "biological"],
+      "category": "document_content"
+    },
+    {
+      "id": "kb_004",
+      "question": "What are some applications of AI?",
+      "expected_source": "knowledge_base",
+      "expected_concepts": ["applications", "virtual assistants", "autonomous vehicles"],
+      "category": "document_content"
+    },
+    {
+      "id": "web_001",
+      "question": "What is the current weather in London?",
+      "expected_source": "web",
+      "expected_concepts": ["weather", "London"],
+      "category": "current_info"
+    },
+    {
+      "id": "web_002",
+      "question": "Who is the current president of France?",
+      "expected_source": "web",
+      "expected_concepts": ["president", "France"],
+      "category": "current_info"
+    },
+    {
+      "id": "web_003",
+      "question": "What is the capital of Australia?",
+      "expected_source": "web",
+      "expected_concepts": ["capital", "Australia", "Canberra"],
+      "category": "general_knowledge"
+    },
+    {
+      "id": "web_004",
+      "question": "How do you make chocolate chip cookies?",
+      "expected_source": "web",
+      "expected_concepts": ["chocolate chip", "cookies", "recipe"],
+      "category": "general_knowledge"
+    },
+    {
+      "id": "web_005",
+      "question": "What companies are mentioned as leading AI research?",
+      "expected_source": "web",
+      "expected_concepts": ["OpenAI", "Google", "Microsoft"],
+      "category": "current_info"
+    },
+    {
+      "id": "web_006",
+      "question": "What does the document say about the future of AI?",
+      "expected_source": "web", 
+      "expected_concepts": ["future", "AI", "developments"],
+      "category": "current_info"
+    },
+    {
+      "id": "web_007",
+      "question": "What are the benefits of solar energy?",
+      "expected_source": "web",
+      "expected_concepts": ["solar", "energy", "benefits"],
+      "category": "general_knowledge"
+    },
+    {
+      "id": "web_008",
+      "question": "What is the population of Tokyo?",
+      "expected_source": "web",
+      "expected_concepts": ["Tokyo", "population"],
+      "category": "general_knowledge"
+    }
+  ]
+}

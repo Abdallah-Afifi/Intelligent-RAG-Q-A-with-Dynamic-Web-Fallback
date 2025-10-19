@@ -1,0 +1,47 @@
+# Core Dependencies
+langchain==0.1.0
+langchain-community==0.0.10
+langgraph==0.0.20
+langchain-core==0.1.10
+
+# Vector Store & Embeddings
+chromadb==0.4.22
+sentence-transformers>=2.5.0
+
+# Document Processing
+pypdf==3.17.4
+pdfplumber==0.10.3
+
+# LLM Providers (Free Options)
+langchain-groq==0.0.1
+ollama==0.1.6
+
+# Web Search & Scraping
+duckduckgo-search==5.3.1
+beautifulsoup4==4.12.2
+requests==2.31.0
+lxml>=5.2.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# Logging & Monitoring
+loguru==0.7.2
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Data Processing
+numpy>=1.26.4
+pandas>=2.2.2
+
+# Progress bars
+tqdm==4.66.1
+
+# HTML parsing
+
+# Rate limiting
+ratelimit==2.2.1
